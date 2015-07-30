@@ -18,7 +18,7 @@ var _mergetwo = function(data1, data2, keys){
 };
 
 
-var _merge = function(sources, keys){
+var innerJoin = function(sources, keys){
         if(sources.length == 1){
             return sources;
         } else if(sources.length == 2){
@@ -35,4 +35,4 @@ var _merge = function(sources, keys){
         return merged[0];
 };
 
-module.exports = _merge;
+exports.innerJoin = innerJoin;

@@ -28,6 +28,7 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "extend": "^3.0.0"
+    "extend": "^3.0.0",
+    "should": "^7.0.2"
   }
 }
